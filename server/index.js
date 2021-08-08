@@ -28,9 +28,9 @@ app.use((req, res, next) => {
 const knex = require('knex')({
   client: 'pg',
   connection: {
-    host: `35.245.129.236`,
-    user: 'lbrook',
-    password: 'shortbreadcookie',
+    host: DB_HOST,
+    user: DB_NAME,
+    password: DB_PASSWORD,
     database: 'postgres'
   },
   pool: {
