@@ -5,7 +5,7 @@ function Header() {
         <div>
             <div className="Header">
                 <span className="logo">
-                    ICHOR ANALYTICS</span>
+                    HEADER</span>
             </div>
         </div>
     );
