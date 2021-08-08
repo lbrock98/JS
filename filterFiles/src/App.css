@@ -1,0 +1,109 @@
+/* beginning of react default styles */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* end of react default styles */
+
+.Header {
+height: 50px;
+background-color: rgba(0,0,0,1);
+flex-direction: row;
+display: flex;
+min-width: 100%;
+}
+
+.logo {
+  font-style: italic;
+  font-weight: 650;
+  color: rgba(255,255,255,1);
+  font-size: 16px;
+  padding: 15px;
+  margin-left: 60px;
+  }
+
+.FilterHolder {
+  height: 70px;
+  background-color: rgba(255,255,255,1);
+  flex-direction: row;
+  display: inline-flex;
+  min-width: 100%;
+}
+
+.DateFilter {
+  padding-top: 15px
+}
+
+.datePicker {
+  color: white; 
+  display: inline-flex;
+}
+
+.SearchBar {
+  display: inline-flex;
+  padding-left: 90px;
+  margin-top: 18px;
+} 
+
+.highlighted {
+  background-color: black;
+  color: white;
+}
+
+button {
+  background-color: #ffffff;
+  border-color: black;
+  border-width: thin;
+  text-align: center;
+  font-size: 14px;
+  display: inline-flex;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+#button1 {
+  margin-top: 24px;
+  border-right-color: white;
+  margin-left:80px;
+
+}
+#button2 {
+  border-right-color: white;
+} 
